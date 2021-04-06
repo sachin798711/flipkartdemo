@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.navbar, .navbar-dark, .bg-primary
+{
+    
+    background-color: rgb(36, 13, 238);
+    width: 100rem;
+    font-size: 120%
+   
+    
+}
+.navbar-brand{
+
+   font-size: 35px;
+   color: white;
+}
+.form-inline{
+    text-align: right;
+    margin-right: 215px;
+    
+}
+.form-control, .mr-sm-2{
+    
+    margin-bottom: 10%;
+    margin-left: 50px;
+    font-size: 35px;
+    width: 1000px;
+}
+.btn, .btn-outline-light, .my-2, .my-sm-0, .bg-success{
+    font-size: 35px;
+    cursor: pointer;
+    color: brown;
+}
+.img{
+    width: 100%;
+    
+}
+.cart, .largenav, .col-sm-2{
+    align-items: center;
+    text-align: right;
+    font-size: 20px;
+    width: 100%;
+    margin-left: -20px;
+    margin-top: -30px;
+}
+.cart-button{
+    margin-top: 20px;
+}
+.container{
+width: 100%;
+}
+.col-5{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding-top: 0px;
+    margin-left: 120px;
+}
+.col-6{
+    display: block;
+    width: 700px;
+    padding: 0px;
+    margin-left: 900px;
+    font-size: 30px;
+}
+#right{
+    margin-top: -6%;
+}
+
+@media screen and (max-width:200px) {
+    ..form-inline, .form-control, .mr-sm-2, ..btn, .btn-outline-light, .my-2, .my-sm-0, .bg-success, ..cart, .largenav, .col-sm-2, ..col-5, ..col-6   {
+      width:100%;
